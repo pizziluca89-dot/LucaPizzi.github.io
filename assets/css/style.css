@@ -1,0 +1,81 @@
+
+/* Sfondo navbar */
+.navbar {
+  background-color: #ede9dd; /* colore di base nav */
+}
+
+.home {
+  display: none; 
+}
+
+    /* Effetto Hover per la navbar */
+.nav-pills .nav-link:hover:not(.active) {
+  background-color: var(--bs-warning-bg-subtle); /* oppure un altro colore Bootstrap */
+  color: var(--bs-warning-text-emphasis);        /* testo leggibile */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Stile per il menu del brand */
+.nav-item .nav-link {
+  color: #396b87; /* Colore del testo della navbar */
+  font-weight: 600; /* Grassetto medio per migliore leggibilità */
+    transition: color 0.3s ease;
+    font-size: large;
+}
+
+.btn-custom .btn {
+  border: 0.5px solid hwb(203 63% 31%); /* Bordo personalizzato */
+}
+
+/*  Scorrimento */
+ html {
+      scroll-behavior: smooth; 
+    }
+
+    section {
+  scroll-margin-top: 80px; /* distanza uguale o maggiore all’altezza della navbar */
+}
+
+/* Stile per la sezione Hero */
+.hero {
+  min-height: 55vh;
+  background-image: url("/assets/img/hero.clouds.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  font-weight: 700;
+}
+
+.hero span {
+  font-size: clamp(1rem, 2.2vw, 1.8rem);
+  font-weight: 300;
+  display: block;
+  margin-left: 1.2rem;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.35); /* regola l’intensità */
+}
+.hero .container {
+  position: relative; /* così il testo sta sopra l’overlay */
+}
+
+/* Stile per la Chi sono */
+
+#chisono-section {
+  background-color: hwb(0 87% 13%); /* colore di base nav */
+}
+
+/* Stile per la Esperienze lavorative */
+
+#esplavorative {
+  background-color: hwb(0 100% 0%); 
+}

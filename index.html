@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS and JS Bootstrap and other -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Page title and favicon-->
+    <title>Luca Pizzi</title>
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+
+    <!-- OpenGraph-->
+    <meta property="og:title" content="Luca Pizzi portfolio" />
+    <meta
+      property="og:description"
+      content="Luca Pizzi homepage project contact"
+    />
+    <meta property="og:url" content="https://esempio.com/lezione-opengraph" />
+    <!-- AGGIORNARE --->
+    <meta property="og:type" content="portfolio" />
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#navbarNav"
+    data-bs-offset="80"
+    tabindex="0"
+  >
+    <!-- NAV BAR -->
+    <nav class="navbar sticky-top" style="background-color: #ede9dd">
+      <div class="container-fluid">
+        <!-- Brand -->
+        <a class="navbar-brand d-flex align-items-center">
+          <img
+            src="/assets/img/Nome.corsivo-removebg.png"
+            class="img-fluid"
+            alt="Nome Luca Pizzi"
+            style="max-width: 200px"
+          />
+        </a>
+
+        <!-- Menu di navigazione -->
+        <div class="justify-content-center" id="navbarNav">
+          <ul class="nav nav-underline">
+            <li class="nav-item">
+              <a href="#professioni" class="nav-link">Professioni</a>
+            </li>
+            <li class="nav-item">
+              <a href="#chisono-section" class="nav-link">Chi sono</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contatti</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Bottone lingua X PAG IN INGLESE SOSTITUIRE PRIMARY CON OUTLINE E VICEVERSA-->
+        <div
+          class="btn-group btn-custom"
+          role="group"
+          aria-label="Basic example"
+        >
+          <a href="/index.html" class="btn btn-primary btn-sm">IT </a>
+          <a href="/index.en.html" class="btn btn-outline btn-sm">EN </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -------------------------------------------------------------------------------->
+
+    <section class="hero d-flex align-items-center text-white" id="hero">
+      <div class="container">
+        <h1 class="fs-3 fs-md-1 fw-bold mb-0">
+          il cambiamento inizia<br />
+          <span class="ms-3 fs-5 fs-md-3 fw-normal">
+            dove lo sguardo incontra nuove possibilità
+          </span>
+        </h1>
+      </div>
+    </section>
+
+    <!-- Professioni -------------------------------------------------------------------------------->
+    <section id="professioni" class="p-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <div class="pt-4">
+              <img
+                src="/assets/img/brain.png"
+                class="img-fluid"
+                style="max-width: 80px"
+                alt="brain icon"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Psicoterapeuta</h5>
+              <p class="card-text">
+                Supporto le persone nello sviluppare nuove prospettive e
+                strategie per stare meglio, attraverso un percorso basato su
+                evidenze scientifiche e collaborazione attiva.
+              </p>
+              <a
+                href="https://www.lucapizzi.com/"
+                class="btn btn-primary"
+                target="_blank"
+                >Scopri di più</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 text-center">
+            <div class="pt-4">
+              <img
+                src="/assets/img/book.png"
+                class="img-fluid"
+                style="max-width: 80px"
+                alt="book icon"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Formatore</h5>
+              <p class="card-text">
+                Creo ambienti di apprendimento che valorizzano il confronto e la
+                riflessione, trasformando la teoria in strumenti utilizzabili
+                nella pratica.
+              </p>
+              <a
+                href="https://milano-sfu.it/docenti/pizzi-luca/?_gl=1*1npck9m*_up*MQ..*_ga*MTU0MjIxODcxMS4xNzYyODgwMTI1*_ga_5N4E8CGJ45*czE3NjI4ODAxMjQkbzEkZzAkdDE3NjI4ODAxMjQkajYwJGwwJGgxNjQzODI5Njc1"
+                class="btn btn-primary"
+                target="_blank"
+                >Scopri di più</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 text-center">
+            <div class="pt-4">
+              <img
+                src="/assets/img/code.png"
+                class="img-fluid"
+                style="max-width: 80px"
+                alt="code icon"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Full-Stack Developer</h5>
+              <p class="card-text">
+                Creo soluzioni digitali efficaci e curate nei dettagli, unendo
+                sviluppo web e strumenti di intelligenza artificiale al servizio
+                delle persone.
+              </p>
+              <a
+                href="https://github.com/pizziluca89-dot?tab=repositories"
+                class="btn btn-primary"
+                target="_blank"
+                >Scopri di più</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cHI SONO -------------------------------------------------------------------------------->
+    <section id="chisono-section" class="py-5 bg-light">
+      <div class="container col-xxl-8 px-4">
+        <div class="row flex-lg-row-reverse align-items-center g-5">
+          <!-- Immagine -->
+          <div class="col-12 col-md-6 text-center">
+            <img
+              src="/assets/img/foto.profilo.jpg"
+              class="img-fluid shadow-sm"
+              alt="foto profilo Luca Pizzi"
+              width="300"
+              height="300"
+              loading="lazy"
+            />
+          </div>
+
+          <!-- Testo -->
+          <div class="col-12 col-md-6">
+            <h2 class="display-6 fw-bold text-body-emphasis mb-3">Chi sono</h2>
+            <p class="lead mb-4">
+              La mia identità professionale vive nell’incontro tra relazione
+              umana, apprendimento e innovazione. Accompagno, insegno, progetto.
+              Ciò che costruisco ha sempre lo stesso centro: la possibilità di
+              cambiamento.
+            </p>
+            <a
+              href="/CV.html"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-outline-secondary btn-lg px-4"
+            >
+              CV
+            </a>
+            <a
+              href="https://www.linkedin.com/in/luca-pizzi-psicologo/"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-primary btn-lg px-4 ms-2"
+            >
+              LinkedIn
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-linkedin"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Contact -------------------------------------------------------------------------------->
+    <section id="contact" class="container py-5">
+      <h2 class="text-center mb-4">Contattami</h2>
+      <form id="contact-form" class="col-md-6 mx-auto">
+        <div class="mb-3">
+          <label for="name" class="form-label">Nome</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="from_name"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="reply_to"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Messaggio</label>
+          <textarea
+            class="form-control"
+            id="message"
+            name="message"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Invia</button>
+      </form>
+    </section>
+    <p class="small mt-2 text-center">
+      Compilando questo modulo accetti la nostra
+      <a href="/privacy.html">Privacy Policy</a>.
+    </p>
+    <div id="form-feedback" class="alert d-none mt-3" role="alert"></div>
+    <script>
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          emailjs.sendForm("service_ypwhfhe", "template_l5ik70y", this).then(
+            () => {
+              alert("Messaggio inviato con successo!");
+              this.reset();
+            },
+            (error) => {
+              console.error("Errore:", error);
+              alert("Si è verificato un errore, riprova più tardi.");
+            }
+          );
+        });
+    </script>
+
+    <!-- Footer -------------------------------------------------------------------------------->
+    <footer class="bg-light text-center text-lg-start">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2025 Luca Pizzi
+      </div>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Script personalizzato -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
